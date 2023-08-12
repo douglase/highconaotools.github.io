@@ -1,0 +1,44 @@
+shortname: SCoOB
+
+fullname: Space Coronagraph Optical Bench
+
+institute: University of Arizona
+
+contact:
+  - name: Ewan Douglas
+    email: douglase@arizona.edu
+    github: douglase
+
+talkpeople:
+  - name: Ewan Douglas
+    github: douglase
+  - name: Kyle Van Gorkom
+
+
+sciencefocus: SCoOB is a vacuum compatible coronagraph testbed designed to test and demonstrate hardware and software technologies for reaching high raw contrasts (beyond 1e-8) for future space observatories.
+
+environment: Vacuum chamber designed for up to 1e-8 torr operation
+
+hardwareitems:
+  1: Boston Micromachines Corp. Kilo-C 1.5 micron stroke Deformable Mirror with one stuck actuator
+  2: Nu-Tek Precision Optics Corp. custom off-axis parabolas aligned to lambda/40 end-to-end wavefront error 
+  3. Minus-K Technology CT-2 vibration isolation platform
+  
+currentstatus: Aligned and tested with knife edge and vortex coronagraphs.
+
+software:
+  1: Python
+  1: CACAO
+
+shared: [Testbed specific branch of MagAO-X software architecture](https://github.com/uasal/MagAOX-scoob). [SCoOB PSF simulator](https://github.com/uasal/scoob-psf) and [Wavefront control algorithms](https://github.com/uasal/lina/)
+
+papers:
+  - title: "The Space Coronagraph Optical Bench (SCoOB): 1. Design and Assembly of a Vacuum-compatible Coronagraph Testbed for Spaceborne High-Contrast Imaging Technology"
+    firstauthor: Ashcraft
+    year: 2022
+    link: https://arxiv.org/abs/2208.01156
+
+  - title: "The space coronagraph optical bench (SCoOB): 2. wavefront sensing and control in a vacuum-compatible coronagraph testbed for spaceborne high-contrast imaging technology"
+    firstauthor: Van Gorkom
+    year: 2022
+    link: https://arxiv.org/abs/2208.01155
